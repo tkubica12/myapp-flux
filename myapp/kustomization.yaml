@@ -1,0 +1,8 @@
+resources:
+  - base/web-deployment.yaml
+  - base/web-service.yaml
+
+images:
+  - name: ghcr.io/tkubica12/todo-web:v1
+    newName: ghcr.io/tkubica12/todo-web
+    newTag: v1
